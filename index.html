@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Playlist Manager</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Playlist Manager</h1>
+    </header>
+    <main>
+      <section class="playlist-container">
+        <h2>Playlist</h2>
+        <ul id="playlist" aria-label="Playlist">
+          <!-- songs will be added here -->
+        </ul>
+        <button id="add-song-btn" aria-label="Add Song">Add Song</button>
+        <button
+          id="reset-playlist-btn"
+          aria-label="Reset Playlist"
+          style="display: none"
+        >
+          Reset Playlist
+        </button>
+      </section>
+      <section class="music-player-container">
+        <h2>Music Player</h2>
+
+        <ul id="playlist" aria-label="Playlist">
+          <!-- songs will be added here -->
+        </ul>
+        <button
+          id="reset-playlist-btn"
+          aria-label="Reset Playlist"
+          style="display: none"
+        >
+          Reset Playlist
+        </button>
+        <div id="music-player" aria-label="Music Player">
+          <!-- music player controls will be added here -->
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
